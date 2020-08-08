@@ -3,3 +3,7 @@ export interface CardProps {
   title: string;
   id: string;
 }
+
+export interface weatherTypes {
+  weatherData: Array<any>;
+}

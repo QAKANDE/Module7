@@ -1,0 +1,46 @@
+.main-col {
+  background-color: aliceblue;
+}
+
+#main-wrapper {
+  background-image: url(../assets/w.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  height: 90vh;
+}
+.form-inline .form-control {
+  width: 1000px !important;
+}
+#search-by-city {
+  font-size: x-large;
+  font-weight: bolder;
+}
+#search-bttn {
+  width: 200px;
+  border-radius: 25px;
+  background-color: black;
+  color: white;
+}
+
+#centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#city-details {
+  width: 70vh;
+  height: 30vh;
+  border: solid;
+}
+
+#city-badge {
+  width: auto;
+  background-color: grey !important;
+  font-size: larger;
+  height: 50px;
+}

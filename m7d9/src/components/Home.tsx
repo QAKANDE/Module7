@@ -12,13 +12,13 @@ const Home = () => {
   };
   async function handleSearch(value: string): Promise<any> {
     const Response = await fetch(
-      "https://deezerdevs-deezer.p.rapidapi.com/search?q=" + value,
+      `https://community-open-weather-map.p.rapidapi.com/weather?callback=test&id=2172797&units=%2522metric%2522%20or%20%2522imperial%2522&mode=xml%252C%20html&q=$`,
       {
         method: "GET",
         headers: {
-          "x-rapidapi-host": "deezerdevs-deezer.p.rapidapi.com",
+          "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
           "x-rapidapi-key":
-            "b41254000bmshb62e314b3254f24p1dac92jsn6f1fc3174939",
+            "8275c582bamshd83a3179dd00459p19f0b2jsn94c889368579",
         },
       }
     );
